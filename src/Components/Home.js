@@ -67,7 +67,7 @@ const Home = () => {
             <div className="ProfilePic">
               <img
                 src={ProfilePic}
-                width="800"
+                width="600"
                 style={{ borderRadius: "1000px" }}
               ></img>
             </div>
