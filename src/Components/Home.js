@@ -52,7 +52,7 @@ const Home = () => {
                 </a>
                 <a
                   className="icon"
-                  href="https://yusufkhancs.tiiny.site/"
+                  href="https://teal-brittani-19.tiiny.site"
                   target="_blank"
                 >
                   <img
