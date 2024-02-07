@@ -18,7 +18,7 @@ const Home = () => {
             <div className="text-cont">
               <h1 className="primary-header">
                 Honors Computer Science Student{" "}
-                <img src={HandIMG} width="100"></img>
+                <img src={HandIMG} width="40"></img>
               </h1>
               <h6 className="para">
                 Hi, i'm Yusuf Khan. <br></br>A passionate Computer Science
@@ -34,8 +34,8 @@ const Home = () => {
                   <img
                     src={LinkedinIMG}
                     alt="linkedin Link"
-                    width="450"
-                    height="150"
+                    width="35"
+                    height="15"
                   ></img>
                 </a>
                 <a
@@ -46,8 +46,8 @@ const Home = () => {
                   <img
                     src={GithubIMG}
                     alt="github link"
-                    width="450"
-                    height="150"
+                    width="35"
+                    height="15"
                   ></img>
                 </a>
                 <a
@@ -58,8 +58,8 @@ const Home = () => {
                   <img
                     src={ResumeIMG}
                     alt="resume link"
-                    width="450"
-                    height="150"
+                    width="35"
+                    height="15"
                   ></img>
                 </a>
               </div>

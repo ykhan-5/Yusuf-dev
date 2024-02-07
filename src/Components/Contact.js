@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contacts" className="contacts">
       <div className="con-title">CONTACT ME!</div>
       <div className="email-container">
-        <img src={mailIMG} alt="" width="100"></img>
+        <img src={mailIMG} alt="" width="80"></img>
         <div className="email">
           <a
             // style="color: inherit;"

@@ -13,21 +13,18 @@ const Projects = () => {
           <img
             src={SEPIMG}
             alt=""
-            width="800"
+            width="400"
             style={{ borderRadius: "50px" }}
           ></img>
         </div>
         <div className="project-blurb">
           <div className="project-name">SEP Workshop Co-Facilitator</div>
           <div className="project-text">
-            As a workshop facilitator for 30+ students, I provide engaging
-            sessions <br />
-            focused on Data Structures concepts in C++. Tailored support is
-            offered to overcome <br />
-            learning obstacles, resulting in a 10% exam average increase. I
-            prioritize creating <br />a collaborative environment to nurture
-            critical thinking and problem-solving skills <br />
-            for academic success.
+            As a workshop facilitator for 30+ students, I provide <br />
+            engaging sessions focused on Data Structures concepts <br />
+            in C++. I prioritize creating a collaborative environment to nurture{" "}
+            <br />
+            critical thinking and problem-solving skills for academic success.
           </div>
         </div>
       </div>
@@ -35,19 +32,18 @@ const Projects = () => {
         <div className="project-blurb">
           <div className="project-name">L'Space NPWEE Academy</div>
           <div className="project-text">
-            Participating in the NASA L'SPACE Program, a 12-week online
-            experience <br />
-            for hands-on learning of NASA mission procedures and protocols,
-            enhancing <br />
-            skills in collaboration and project proposal work within the space
-            industry.
+            Participating in the NASA L'SPACE Program, a 12-week online <br />
+            experience for hands-on learning of NASA mission procedures <br />
+            and protocols, enhancing skills in collaboration and project
+            <br />
+            proposal work within the space industry.
           </div>
         </div>
         <div className="project-pic">
           <img
             src={NASAIMG}
             alt=""
-            width="800"
+            width="400"
             style={{ borderRadius: "50px" }}
           ></img>
         </div>
@@ -55,13 +51,18 @@ const Projects = () => {
       <div className="project">
         <div className="project-pic">
           {" "}
-          <img src={DEIIMG} alt="" style={{ borderRadius: "50px" }}></img>
+          <img
+            src={DEIIMG}
+            alt=""
+            style={{ borderRadius: "50px" }}
+            width="400"
+          ></img>
         </div>
         <div className="project-blurb">
           <div className="project-name">
             DEItectives&nbsp;
             <a href="https://devpost.com/software/deitectives" target="_blank">
-              <img alt="" src={link} width="50" className="link"></img>
+              <img alt="" src={link} width="20" className="link"></img>
             </a>
           </div>
           <div className="project-text">
